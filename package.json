@@ -1,0 +1,24 @@
+{
+  "name": "FoxDot-to-P5js",
+  "description": "FoxDot to P5js via OSC (Open Sound Control) bridge, adapted from https://github.com/genekogan/p5js-osc",
+  "version": "0.1.0",
+  "author": {
+    "name": "Luke Demarest",
+    "email": "Luke@Demare.st"
+  },
+  "dependencies": {
+    "http": "0.0.0",
+    "node-osc": "^2.0.0",
+    "socket.io": "1.4.5"
+  },
+  "keywords": [
+    "osc",
+    "socket",
+    "websockets",
+    "p5.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feature-creature/FoxDot-to-P5js.git"
+  }
+}
