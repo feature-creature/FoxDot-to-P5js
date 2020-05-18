@@ -24,7 +24,7 @@ Start the osc bridge. It receives OSC messages from FoxDot and sends them to p5j
 __In a new tab__, start a [lightserver](https://www.npmjs.com/package/light-server) to auto-load your livecoded p5js in a browser:
 
     $ cd basic-example/
-    $ light-server -s . -w "**
+    $ light-server -s . -w "**"
     
 Open a browser:
 
