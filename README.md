@@ -30,9 +30,15 @@ Open a browser:
 
     http://0.0.0.0:4000/
     
-Start FoxDot and then send osc messages --> p5js bridge --> your p5js sketch
+Start FoxDot with the following code to send FoxDot osc messages --> p5js bridge --> your p5js sketch
 
-    >> Server.add_forward("localhost",12345)
+    Server.add_forward("localhost",12345)
+
+	p1 >> play("x ", amplify=0.25)
+	b1 >> jbass([2,4], oct=3, dur=4)
+
+	g2 >> growl([2,4,6], dur=1/6).every(3, 'reverse')
+	p2 >> play("(o,-),xx")
   
 Edit your FoxDot code in the FoxDot IDE and edit your P5js code in your IDE of choice and watch everything update live.
 *This is a work in progress.* 
